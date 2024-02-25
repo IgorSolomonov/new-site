@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: "Roboto", serif;
+  background-color: #2b2f49;
+  height: 100%;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body a {
+  color: #cdd1d1;
+}
+
+body .header {
+  width: auto;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .header .title {
+  color: #cdd1d1;
+  text-align: center;
+  font-size: 42px;
+}
+
+body .teacher {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  width: auto;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .teacher .name {
+  color: #cdd1d1;
+  text-align: center;
+  font-size: 32px;
+}
+
+body .teacher .payslip {
+  color: #cdd1d1;
+  text-align: center;
+  font-size: 22px;
+}
+
+body .teacher .teacher_exit {
+  color: #cdd1d1;
+  text-align: center;
+  font-size: 22px;
+}
+
+body .form {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  width: auto;
+  height: 500px;
+}
+
+body .form .contactform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: auto;
+  height: 500px;
+}
+
+body .form .contactform .label_title {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #646464;
+}
+
+body .form .contactform input[type="number"]::-webkit-inner-spin-button,
+body .form .contactform input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body .form .contactform .input_size::-webkit-input-placeholder {
+  opacity: 0.3;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+body .form .contactform .input_size:-ms-input-placeholder {
+  opacity: 0.3;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+body .form .contactform .input_size::-ms-input-placeholder {
+  opacity: 0.3;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+body .form .contactform .input_size::placeholder {
+  opacity: 0.3;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+body .form .contactform .input_size {
+  height: 45px;
+  font-size: 24px;
+}
+
+body .form .contactform #pin {
+  margin-bottom: 30px;
+}
+
+body .form .contactform .bottom {
+  width: 200px;
+  height: 50px;
+  border-radius: 55%;
+  border: 2px solid #cdd1d1;
+  background-color: #44496e;
+  font-size: 26px;
+  margin-top: 30px;
+  color: #cdd1d1;
+}
+
+body .form .contactform .bottom:active {
+  border: 0px solid #cdd1d1;
+}
+
+body .footer {
+  width: auto;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #cdd1d1;
+  font-size: 22px;
+  text-align: center;
+}
+/*# sourceMappingURL=app.css.map */

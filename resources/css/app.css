@@ -1,0 +1,50 @@
+@font-face {
+  src: url("Roboto-Medium.ttf");
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  src: url("Roboto-Thin.ttf");
+  font-family: "Thin", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  src: url("Roboto-Bold.ttf");
+  font-family: "Bold", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "Bold", sans-serif;
+  background-color: #2b2f49;
+}
+
+.header {
+  width: auto;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .title {
+  color: #84e2e2;
+  text-align: center;
+  font-size: 32px;
+}
+/*# sourceMappingURL=app.css.map */
